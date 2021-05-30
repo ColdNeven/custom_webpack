@@ -5,14 +5,15 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "dev:watch":"webpack --mode development --watch" ,
+    "dev:watch": "webpack --mode development --watch",
     "prod": "webpack --mode production"
-
   },
   "author": "dima",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   },
